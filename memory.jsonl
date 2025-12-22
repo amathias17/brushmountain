@@ -1,0 +1,17 @@
+{"meta":{"format":"memory-jsonl","version":1}}
+{"section":"Completed Work","entry":"Installed Tailwind for Astro via `@tailwindcss/vite`; Tailwind is imported in `src/styles/global.css`, and `astro.config.mjs` includes the Vite plugin."}
+{"section":"Completed Work","entry":"Added design tokens to Tailwind `@theme` in `src/styles/global.css` and mapped reusable helpers (`.cs-topper`, `.cs-title`, `.cs-text`) to Tailwind utilities."}
+{"section":"Completed Work","entry":"Created `src/data/navData.json` to drive dynamic navigation, including nested dropdown items."}
+{"section":"Completed Work","entry":"Built `src/components/Navbar.astro` as a Tailwind-only navbar using `navData` for links and dropdowns, with mobile toggle + dropdown logic."}
+{"section":"Completed Work","entry":"Implemented dropdown UI fixes: aligned triggers, added caret icon, light border around dropdowns, and removed desktop scrollbar issues by enabling `lg:overflow-visible`."}
+{"section":"Completed Work","entry":"Adjusted navbar spacing and shadow (`py-6`/`lg:py-4`, `shadow-sm`)."}
+{"section":"Completed Work","entry":"Created `src/components/Hero.astro` as a hero section converted from `convert.html` and `convert.css` (background image, overlay, content, and buttons)."}
+{"section":"Completed Work","entry":"`src/pages/index.astro` renders both `Navbar` and `Hero`."}
+{"section":"Completed Work","entry":"Beads issues `brushmountain-1q1` and `brushmountain-99a` were created and closed after completion."}
+{"section":"Completed Work","entry":"Added docs/core-styles.md documenting design tokens and core helper classes."}
+{"section":"Completed Work","entry":"Updated `AGENTS.md` with working agreement and MCP usage directives."}
+{"section":"Fixes and Corrections","entry":"Dropdown misalignment: added flex alignment classes to keep dropdown triggers level with other nav items."}
+{"section":"Fixes and Corrections","entry":"Dropdown action unreliable on mobile: added explicit open/close logic, aria state, and \"close others\" behavior."}
+{"section":"Fixes and Corrections","entry":"Desktop hover created scrollbars: added `lg:overflow-visible` on the nav list to avoid overflow clipping."}
+{"section":"Fixes and Corrections","entry":"Duplicate nav rendering: removed nav from `Hero.astro` and rebuilt it as a true hero section when `convert.html` was updated."}
+{"section":"Fixes and Corrections","entry":"Hero not showing under navbar: identified fixed header overlap; switched hero to a normal section and used updated content from `convert.html`."}
