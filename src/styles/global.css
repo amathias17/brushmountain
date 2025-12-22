@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #ff6a3e;
+  --color-primary-light: #ffba43;
+  --color-secondary: #ffba43;
+  --color-secondary-light: #ffba43;
+  --color-header: #1a1a1a;
+  --color-body: #4e4b66;
+  --color-body-white: #fafbfc;
+  --text-topper: clamp(0.8125rem, 1.6vw, 1rem);
+  --text-topper--line-height: 1.2;
+  --text-topper--letter-spacing: 0.1em;
+  --text-topper--font-weight: 700;
+  --text-display: clamp(1.9375rem, 3.9vw, 3.0625rem);
+  --text-display--line-height: 1.2;
+  --text-display--font-weight: 900;
+  --spacing-section-y: clamp(3.75rem, 7.82vw, 6.25rem);
+  --spacing-section-x: 1rem;
+}
+
+@layer base {
+  body {
+    @apply m-0 p-0;
+  }
+
+  *,
+  *::before,
+  *::after {
+    @apply box-border;
+  }
+}
+
+@layer components {
+  .cs-topper {
+    @apply block uppercase text-topper text-primary mb-1;
+  }
+
+  .cs-title {
+    @apply text-display text-header max-w-[43.75rem] m-0 mb-4 relative;
+  }
+
+  .cs-text {
+    @apply text-base leading-6 text-body w-full max-w-[40.625rem] m-0;
+  }
+}
