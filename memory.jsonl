@@ -16,3 +16,5 @@
 {"section":"Fixes and Corrections","entry":"Duplicate nav rendering: removed nav from `Hero.astro` and rebuilt it as a true hero section when `convert.html` was updated."}
 {"section":"Fixes and Corrections","entry":"Hero not showing under navbar: identified fixed header overlap; switched hero to a normal section and used updated content from `convert.html`."}
 {"section":"Completed Work","entry":"Converted `convert.html` and `convert.css` into `src/components/Hero.astro` with Tailwind and rendered it in `src/pages/index.astro`."}
+{"section":"Completed Work","entry":"Added bd issue-tracking guidance to AGENTS.md and created .github/copilot-instructions.md from bd onboard output."}
+{"section":"Completed Work","entry":"Initialized bd database and logged issues brushmountain-95r (nav routes missing) and brushmountain-ixd (README encoding)."}
